@@ -1,16 +1,7 @@
 # Queue:
 ## Theory:
-The queue is a basic data structure just like a stack. In contrast to stack that uses the LIFO approach, queue uses the FIFO (first in, first out) approach.
-With this approach, the first item that is added to the queue is the first item to be removed from the queue. Just like Stack, the queue is also a linear data structure.<br>
-In software terms, the queue can be viewed as a set or collection of elements as shown below. The elements are arranged linearly.<br>
-![queue](https://github.com/Rutuja-117/Queue/assets/139907839/0f57b51f-a9a7-49db-ae1a-e96cf99ba028)
-We have two ends i.e. “front” and “rear” of the queue. When the queue is empty, then both the pointers are set to -1.
-
-The “rear” end pointer is the place from where the elements are inserted in the queue. The operation of adding /inserting elements in the queue is called “enqueue”.
-
-The “front” end pointer is the place from where the elements are removed from the queue. The operation to remove/delete elements from the queue is called “dequeue”.
-
-When the rear pointer value is size-1, then we say that the queue is full. When the front is null, then the queue is empty.
+a queue is a fundamental data structure that follows the First-In-First-Out (FIFO) principle. It operates much like a line of people waiting for a service, where the first person to join is the first to be served. Queues find wide applications in algorithms that require efficient management of data in sequential order. They can be implemented using arrays or linked lists. Key operations include enqueue (to add an element to the rear), dequeue (to remove an element from the front), and peek (to view the front element without removal). Understanding queues is essential for solving problems that require organized and systematic data processing.
+![image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221213113312/Queue-Data-Structures.png)
 
 #### Basic operations:
 The queue data structure includes the following operations:<br>
